@@ -18,8 +18,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "备忘录",
-      description: '止于至善，每天进步一点',
+      title: "止于至善",
+      description: '每天进步一点点',
     }
   },
 
@@ -68,7 +68,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'python', link: '/pages/8143cc480faf9a11/' },
               { text: 'java', link: '/pages/8309a5b876fc95e3/' },
-              { text: 'golang', link: '/pages/0a83b083bdf257cb/' },
+              { text: 'golang', link: '/pages/7db607db60ee/' },
+            ],
+          },
+          {
+            text: 'web服务器',
+            items: [
+              { text: 'Nginx', link: '/pages/4c9e4c9e824c9e8282/' },
             ],
           },
         ],
@@ -94,7 +100,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '友情链接', link: '/friends/' },
         ],
       },
-      { text: '关于', link: '/about/' },
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -169,9 +174,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'cheng',
-      slogan: '我们的目标是星辰大海',
+      avatar: '/img/avatar.png',
+      name: '成',
+      slogan: '每天进步一点点',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
