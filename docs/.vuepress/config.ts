@@ -64,18 +64,56 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/backend/',
         items: [
           {
-            text: '编程语言',
+            text: '编程基础',
             items: [
-              { text: 'python', link: '/pages/8143cc480faf9a11/' },
-              { text: 'java', link: '/pages/8309a5b876fc95e3/' },
-              { text: 'golang', link: '/pages/7db607db60ee/' },
+              { text: 'Python', link: '/python/8143cc480faf9a11/' },
+              { text: 'Java', link: '/java/8309a5b876fc95e3/' },
+              { text: 'Golang', link: '/golang/7db607db60ee/' },
             ],
           },
           {
-            text: 'web服务器',
+            text: '数据库',
             items: [
-              { text: 'Nginx', link: '/pages/4c9e4c9e824c9e8282/' },
+              { text: 'ClickHouse', link: '/clickhouse/2ej52zhljzx1w52w/' },
             ],
+          },
+        ],
+      },
+      {
+        text: '云计算',
+        link: '/cloud-computing/',
+        items: [
+          {
+            text: 'k8s',
+            link: '',
+          },
+        ],
+      },
+      {
+        text: '数据结构与算法',
+        link: '/data-structure/',
+        items: [
+          {
+            text: '数据结构',
+            link: '/data-structure/8143cc480faf9a11/',
+          },
+          {
+            text: '算法',
+            link: '/algorithm/4c9e4c9e824c9e8282/',
+          },
+        ],
+      },
+      {
+        text: '面试指东',
+        link: '/interview/',
+        items: [
+          {
+            text: 'Golang',
+            link: '/interview/3yfqk5e3z6gxtzoo5ppx/',
+          },
+          {
+            text: '数据库',
+            link: '/interview/4c9e4c9e824c9e8282/',
           },
         ],
       },
@@ -94,7 +132,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
           { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
